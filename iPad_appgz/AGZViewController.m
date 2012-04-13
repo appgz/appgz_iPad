@@ -52,6 +52,8 @@
                          [UIImage imageNamed:@"1-15.jpg"],
                [UIImage imageNamed:@"1-14.jpg"],
                [UIImage imageNamed:@"1-15.jpg"],
+               [UIImage imageNamed:@"1-14.jpg"],
+               [UIImage imageNamed:@"1-15.jpg"],
                [UIImage imageNamed:@"1-11.jpg"],
                          nil];
     
