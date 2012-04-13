@@ -27,6 +27,10 @@
      NSLog(@"just text ");
      NSLog(@"just text ");
     
+     NSLog(@"just text "); NSLog(@"just text ");
+    
+     NSLog(@"just text ");
+    
     [self loadImage];
     
     
@@ -53,7 +57,7 @@
     AnimatedView.animationDuration = 20; // seconds
     AnimatedView.animationRepeatCount = 0; // 0 代表一直循环。
     [AnimatedView startAnimating];
- //   [self.view addSubview:AnimatedView];
+ 
     
     [AnimatedView release];
 }
