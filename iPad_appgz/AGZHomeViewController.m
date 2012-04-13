@@ -25,6 +25,9 @@
 @synthesize scrollView;
 @synthesize nav;
 
+
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,6 +39,14 @@
 
 -(IBAction)toMesView:(id)sender{
     NSLog(@"%@",__FUNCTION__);
+    
+    NSLog(@"dlkfjdosfju");
+    
+    
+    
+    
+    
+    
      AGZMesViewController * toMesView = [[AGZMesViewController alloc]init];
     [self.navigationController pushViewController:toMesView animated:YES];
     [toMesView release];
