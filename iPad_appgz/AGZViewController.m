@@ -24,6 +24,8 @@
 {
     [super viewDidLoad];
     NSLog(@"just text ");
+     NSLog(@"just text ");
+     NSLog(@"just text ");
     
     [self loadImage];
     
@@ -37,7 +39,7 @@
 -(void)loadImage{
     
        
-    NSArray *myImages = [NSArray arrayWithObjects:
+   myImages = [NSArray arrayWithObjects:
                     
                          [UIImage imageNamed:@"1-11.jpg"],
                          [UIImage imageNamed:@"1-12.jpg"],
@@ -46,7 +48,7 @@
                          [UIImage imageNamed:@"1-15.jpg"],
                          nil];
     
-  //  UIImageView *AnimatedView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 768, 1024)];
+  
      AnimatedView.animationImages = myImages;
     AnimatedView.animationDuration = 20; // seconds
     AnimatedView.animationRepeatCount = 0; // 0 代表一直循环。
